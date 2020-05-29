@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:id="@+id/go_main"
+        android:icon="@drawable/ic_home"
+        android:title="홈"
+        app:showAsAction="ifRoom" />
+
+    <!--
+    <item android:id="@+id/action_settings2"
+        android:title="마이페이지"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_settings3"
+        android:title="주문내역"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_settings4"
+        android:title="환전"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_settings5"
+        android:title="로그아웃"
+        app:showAsAction="never"/> -->
+
+</menu>

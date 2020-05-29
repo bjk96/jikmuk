@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".food_menu">
+
+        <android.support.v4.widget.DrawerLayout
+            android:id="@+id/drawerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:verticalScrollbarPosition="defaultPosition"
+            android:visibility="visible">
+            <!-- main layout-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.Toolbar
+                        android:id="@+id/my_toolbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="?attr/actionBarSize"
+                        android:background="?attr/colorPrimary"
+                        android:elevation="4dp"
+                        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+                        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/nanumgothicextrabold"
+                            android:text="@string/메뉴관리"
+                            android:textColor="#FFFFFFFF"
+                            android:textSize="20sp" />
+                    </android.support.v7.widget.Toolbar>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:gravity="bottom">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="가게 목록"
+                                android:textSize="20sp"
+                                android:fontFamily="@font/nanumgothicbold"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:text="메뉴 관리를 하실려면 가게를 선택해주세요."
+                                android:textColor="#5A000000"
+                                android:fontFamily="@font/nanumgothic"
+                                android:textSize="12sp"/>
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_marginTop="1dp"
+                            android:background="@color/colorPrimary"/>
+                    </LinearLayout>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/storerecycle"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="50" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <!--navigation drawer-->
+            <android.support.design.widget.NavigationView
+                android:id="@+id/navigationView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:visibility="gone"
+                app:headerLayout="@layout/main_nav_header"
+                app:menu="@menu/food_navigator" />
+
+        </android.support.v4.widget.DrawerLayout>
+
+    </LinearLayout>

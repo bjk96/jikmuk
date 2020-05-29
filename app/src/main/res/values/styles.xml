@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:actionOverflowButtonStyle">@style/AppTheme.OverFlow</item>
+        <item name="android:itemBackground">#F2FFBF00</item>
+        <item name="android:itemTextAppearance">@style/myMenuTextAppearance</item>
+
+        <!--Status Bar 글자색깔-->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="AppTheme.OverFlow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">#FFFFFFFF</item>
+    </style>
+    
+    <style name="myMenuTextAppearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:fontFamily">@font/nanumgothicbold</item>
+    </style>
+
+</resources>

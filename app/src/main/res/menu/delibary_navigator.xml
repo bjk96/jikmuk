@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/delibary_regist"
+            android:icon="@drawable/ic_add_circle_outline"
+            android:title="배달원 등록" />
+        <item
+            android:id="@+id/delibary_receipt"
+            android:icon="@drawable/ic_content_paste_black_24dp"
+            android:title="배달 내역" />
+        <item
+            android:id="@+id/delibary_cashout"
+            android:icon="@drawable/ic_coins"
+            android:title="포인트 환전" />
+        <item
+            android:id="@+id/delibary_cashout_receipt"
+            android:icon="@drawable/ic_receipt"
+            android:title="환전 내역"
+            />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title = "로그아웃"
+            />
+
+    </group>
+</menu>
+

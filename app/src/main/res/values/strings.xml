@@ -1,0 +1,253 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">jm</string>
+    <string name="장바구니">장바구니</string>
+    <string name="TextView">TextView</string>
+    <string name="가격">가격</string>
+    <string name="수량">수량</string>
+    <string name="배달">배달</string>
+    <string name="환전내역">환전내역</string>
+    <string name="환전하기">환전하기</string>
+    <string name="시작하기">시작하기</string>
+    <string name="환전신청">환전신청</string>
+    <string name="계좌번호">계좌번호</string>
+    <string name="예금주">예금주</string>
+    <string name="받을계좌">받을 계좌</string>
+    <string name="textview">TextView</string>
+    <string name="name">Name</string>
+    <string name="남은포인트">남은 포인트</string>
+    <string name="환전포인트">환전 포인트</string>
+    <string name="소지포인트">소지 포인트</string>
+    <string name="포인트환전">포인트 환전</string>
+    <string name="배달내역">배달내역</string>
+    <string name="배달원명">배달원명</string>
+    <string name="경기장명">경기장명</string>
+    <string name="즐겨찾기설명1">즐겨찾기 설명1</string>
+    <string name="즐겨찾기설명2">즐겨찾기설명2</string>
+    <string name="즐겨찾기설명3">즐겨찾기 설명3</string>
+    <string name="즐겨찾기">즐겨찾기</string>
+    <string name="재주문">재주문</string>
+    <string name="바로주문">바로 주문</string>
+    <string name="확인">확인</string>
+    <string name="취소">취소</string>
+    <string name="메뉴명">메뉴명</string>
+    <string name="password">pass word</string>
+    <string name="아이디">id</string>
+    <string name="주문내역">주문내역</string>
+    <string name="점포등록">점포 등록</string>
+    <string name="추가">추가</string>
+    <string name="삭제">삭제</string>
+    <string name="메뉴관리">메뉴관리</string>
+    <string name="등록">등록</string>
+    <string name="점포관리">점포관리</string>
+    <string name="문의내용">문의내용</string>
+    <string name="작성자아이디">작성자아이디</string>
+    <string name="분류">분류</string>
+    <string name="선물하기">선물하기</string>
+    <string name="주소">주소</string>
+    <string name="상세주소">상세주소</string>
+    <string name="핸드폰">핸드폰</string>
+    <string name="좌석선택">좌석선택</string>
+    <string name="다음">다음</string>
+    <string name="스포츠">스포츠 </string>
+    <string name="주문">주문</string>
+    <string name="설명">설명</string>
+    <string name="업체명">업체명</string>
+    <string name="업주명">업주명</string>
+    <string name="결제">결제</string>
+    <string name="결제포인트">결제포인트</string>
+    <string name="주문내용">주문내용</string>
+    <string name="경기장정보">경기장정보</string>
+    <string name="경기장">경기장</string>
+    <string name="좌석정보">좌석 정보</string>
+    <string name="포인트관리">포인트관리</string>
+    <string name="고객센터">고객센터</string>
+    <string name="뒤로가기">뒤로 가기</string>
+    <string name="title">직먹</string>
+    <string name="수정">수정</string>
+
+    <string-array name="household_array">
+        <item>통밥</item>
+        <item>어메불족발곱창</item>
+        <item>공씨네주먹밥</item>
+        <item>BHC</item>
+        <item>꼬꼬닭</item>
+        <item>피자헛</item>
+        <item>롯데리아</item>
+        <item>망고식스</item>
+        <item>명인만두</item>
+    </string-array>
+    <string-array name="household2_array">
+        <item>국대떡볶이</item>
+        <item>스트릿츄러스</item>
+        <item>장충동왕족발</item>
+        <item>농심가락</item>
+        <item>친절한스낵바</item>
+        <item>피자헛</item>
+        <item>허니빈스</item>
+        <item>가마로강정</item>
+        <item>BBQ</item>
+    </string-array>
+    <string-array name="household3_array">
+        <item>디딤푸드코트</item>
+        <item>킹콩떡볶이</item>
+        <item>오레오수제돈가스냉면</item>
+    </string-array>
+
+    <string name="Sports">스포츠</string>
+    <string-array name="sports_array">
+        <item>축구</item>
+        <item>야구</item>
+        <item>농구</item>
+        <item>배구</item>
+    </string-array>
+    <string name="stadium">경기장</string>
+    <string-array name="sports_soccer">
+        <item>서울월드컵경기장(FC 서울)</item>
+        <item>잠실종합운동장 올림픽주경기장(서울 이랜드 FC)</item>
+        <item>인천축구전용경기장(인천 유나이티드 FC)</item>
+        <item>수원월드컵경기장(수원 삼성 블루윙즈 FC)</item>
+        <item>수원종합운동장(수원 FC)</item>
+        <item>탄천종합운동장(성남 FC)</item>
+        <item>부천종합운동장(부천 FC 1995)</item>
+        <item>안양종합운동장(FC 안양)</item>
+        <item>안산와스타디움(안산 그리너스 FC)</item>
+        <item>춘천송암레포츠타운(강원 FC)</item>
+        <item>대전월드컵경기장(대전 시티즌 FC)</item>
+        <item>이순신종합운동장(아산 무궁화 축구단)</item>
+        <item>전주월드컵경기장(전북 현대 모터스 FC)</item>
+        <item>광주월드컵경기장(광주 FC)</item>
+        <item>광양축구전용구장(전남 드래곤즈 FC)</item>
+        <item>포항스틸야드(FC 포항 스틸러스)</item>
+        <item>상주시민운동장(상주 상무 축구단)</item>
+        <item>구덕종합운동장(부산 아이파크 FC)</item>
+        <item>울산문수축구경기장(울산 현대 축구단)</item>
+        <item>창원축구센터(경남 FC)</item>
+        <item>제주월드컵경기장(제주 유나이티드 FC)</item>
+    </string-array>
+    <string-array name="sports_baseball">
+        <item>잠실야구장(두산 베어스, LG 트윈스)</item>
+        <item>고척스카이돔(키움 히어로즈)</item>
+        <item>인천 SK 행복드림구장(SK 와이번스)</item>
+        <item>수원 KT 위즈 파크(KT 위즈)</item>
+        <item>한화생명 이글스 파크(한화 이글스)</item>
+        <item>광주KIA챔피언스필드(KIA 타이거즈)</item>
+        <item>대구 삼성 라이온즈 파크(삼성 라이온즈)</item>
+        <item>사직야구장(롯데 자이언츠)</item>
+    </string-array>
+    <string-array name="sports_basketball">
+        <item>잠실체육관(서울 삼성 썬더스)</item>
+        <item>잠실학생체육관(서울 SK 나이츠)</item>
+        <item>삼산월드체육관(인천 전자랜드 엘리펀츠)</item>
+        <item>고양체육관(고양 오리온 오리온스)</item>
+        <item>안양체육관(안양 KGC 인삼공사)</item>
+        <item>원주종합체육관(원주 DB 프로미)</item>
+        <item>전주실내체육관(전주 KCC 이지스)</item>
+        <item>사직실내체육관(부산 kt 소닉붐)</item>
+        <item>동천체육관(울산 현대모비스 피버스)</item>
+        <item>창원실내체육관(창원 LG 세이커스)</item>
+        <item>도원실내체육관(인천 신한은행 에스버드)</item>
+        <item>서수원칠보체육관(수원 OK저축은행 읏샷)</item>
+        <item>용인실내체육관(용인 삼성생명 블루밍스)</item>
+        <item>부천실내체육관(부천 KEB하나은행)</item>
+        <item>청주실내체육관(청주 KB 스타즈)</item>
+        <item>이순신빙상장실내체육관(아산 우리은행 위비)</item>
+    </string-array>
+    <string-array name="sports_volleyball">
+        <item>장충체육관(서울 우리카드 위비, GS칼텍스 서울 KIXX 배구단)</item>
+        <item>인천계양체육관(대한항공 점보스, 흥국생명 핑크스파이더스)</item>
+        <item>수원실내체육관(수원 한국전력 빅스톰, 현대건설 힐스테이트 배구단)</item>
+        <item>화성종합경기타운 실내체육관(IBK 기업은행 알토스 배구단)</item>
+        <item>안산상록수체육관(OK저축은행 러시앤캐시)</item>
+        <item>의정부실내체육관(KB손해보험 스타즈)</item>
+        <item>대전충무체육관(삼성화재 블루팡스, KGC 인삼공사 배구단)</item>
+        <item>천안 유관순체육관(현대캐피탈 스카이워커스)</item>
+        <item>김천실내체육관(한국도로공사 하이패스 배구단)</item>
+    </string-array>
+    <string-array name="bank">
+        <item>KB국민</item>
+        <item>신한</item>
+        <item>KEB하나</item>
+        <item>우리</item>
+        <item>NH농협</item>
+        <item>수협</item>
+        <item>IBK기업</item>
+        <item>KDB산업</item>
+        <item>부산</item>
+        <item>대구</item>
+        <item>한국씨티</item>
+        <item>SC제일</item>
+        <item>경남</item>
+        <item>광주</item>
+        <item>전북</item>
+        <item>제주</item>
+        <item>카카오뱅크</item>
+        <item>케이뱅크</item>
+    </string-array>
+    <string name="jamsil_tongbap">통밥</string>
+    <string-array name="jamsil_tongbap_menu">
+        <item>통비빔면</item>
+        <item>열무국수</item>
+        <item>냉우동</item>
+        <item>우동</item>
+        <item>김치말이국수</item>
+        <item>삼겹살세트A(삼겹살정식+순대볶음+면류)</item>
+        <item>삼겹살세트B(삼겹살정식+순대볶음)</item>
+        <item>삼겹살세트C(삼겹살정식+면류)</item>
+        <item>콜라</item>
+        <item>사이다</item>
+        <item>생수</item>
+        <item>얼음생수</item>
+        <item>삼겹살정식</item>
+        <item>짜장면</item>
+        <item>통통만두</item>
+        <item>순대볶음</item>
+        <item>순대볶음 우동면</item>
+        <item>삼겹살순대볶음</item>
+    </string-array>
+    <string name="jamsil_jokbal">어메불족발곱창</string>
+    <string-array name="jamsil_jokbal_menu">
+        <item>야채곱창</item>
+        <item>순대볶음</item>
+        <item>순대곱창</item>
+        <item>불막창</item>
+        <item>불족발</item>
+        <item>왕족발</item>
+        <item>불삼겹살</item>
+        <item>불닭발</item>
+        <item>꼬치소세지</item>
+        <item>삼겹살</item>
+    </string-array>
+    <string name="jamsil_jumeokbap">공씨네주먹밥</string>
+    <string-array name="jamsil_jumeokbap_menu">
+        <item>닭갈비 주먹밥</item>
+        <item>참치김치 주먹밥</item>
+        <item>제육김치 주먹밥</item>
+        <item>양념갈비 주먹밥</item>
+        <item>치즈날치알 주먹밥</item>
+        <item>구운스팸 주먹밥</item>
+        <item>치킨스테이크 주먹밥</item>
+        <item>고추장불고기 주먹밥</item>
+        <item>갈릭떡갈비 주먹밥</item>
+        <item>구운계란</item>
+        <item>꼬치어묵</item>
+        <item>떡볶이</item>
+        <item>순대</item>
+        <item>1번 세트 떡볶이+주먹밥(참치김치, 제육김치, 닭갈비 中 택 1)</item>
+        <item>2번 세트 (참치김치+구운스팸+생수)</item>
+        <item>3번 세트 주먹밥 4개(닭갈비, 참치김치, 양념갈비, 구운스팸)+콜라 or 사이다</item>
+        <item>4번 세트 주먹밥 5개(참치김치, 양념갈비, 닭갈비, 고추장불고기, 구운스팸</item>
+        <item>5번 세트 주먹밥 4개(참치김치, 구운스팸, 닭갈비, 제육김치)+떡볶이+꼬치어묵 or 살얼음식혜+구운계란 3개+ 콜라 or 사이다</item>
+        <item>6번 세트 (떡볶이+순대+참치김치)</item>
+        <item>생수</item>
+        <item>꼬마음료(콜라/사이다/환타)</item>
+        <item>하늘보리</item>
+        <item>트레비</item>
+        <item>식혜</item>
+        <item>콜라</item>
+        <item>사이다</item>
+        <item>파워에이드</item>
+        <item>게토레이</item>
+        <item>립톤</item>
+    </string-array>
+
+</resources>

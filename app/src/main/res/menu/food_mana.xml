@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id = "@+id/food_regist"
+        android:title="점포등록"/>
+
+    <item android:id = "@+id/food_menu"
+        android:title="메뉴관리"/>
+</menu>

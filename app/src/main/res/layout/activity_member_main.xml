@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".member_main">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:verticalScrollbarPosition="defaultPosition"
+        android:visibility="visible"
+        tools:openDrawer="start">
+        <!-- main layout-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:visibility="visible">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/my_toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/colorPrimary"
+                    android:elevation="4dp"
+                    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light" >
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="직먹"
+                        android:fontFamily="@font/oegyeinseolmyeongseo"
+                        android:textSize="24sp"
+                        android:textColor="#FFFFFFFF"
+                        android:layout_gravity="center"/>
+                </android.support.v7.widget.Toolbar>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="8dp">
+
+
+                    <Button
+                        android:id="@+id/btn_point_manage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_white_angled"
+                        android:fontFamily="@font/nanumgothicbold"
+                        android:onClick="onClick"
+                        android:text="포인트관리"
+                        android:textColor="@drawable/btn_text_yellow" />
+
+                    <!--app:layout_constraintBottom_toTopOf="@+id/doingE_1"
+                        app:layout_constraintEnd_toStartOf="@+id/btn_favorite"
+                        app:layout_constraintStart_toEndOf="@+id/btn_order"
+                        app:layout_constraintTop_toBottomOf="@+id/my_toolbar"
+                        app:layout_constraintVertical_bias="1.0 -->
+
+
+                    <Button
+                        android:id="@+id/btn_order"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_white_angled"
+                        android:fontFamily="@font/nanumgothicbold"
+                        android:onClick="onClick"
+                        android:text="주문"
+                        android:textColor="@drawable/btn_text_yellow" />
+
+                    <!--
+                        app:layout_constraintBottom_toTopOf="@+id/doingE_1"
+                        app:layout_constraintEnd_toStartOf="@+id/btn_point_manage"
+                        app:layout_constraintStart_toEndOf="@+id/imageView3"
+                        app:layout_constraintTop_toBottomOf="@+id/my_toolbar"-->
+
+
+                    <!--
+                        app:layout_constraintBottom_toTopOf="@+id/doingE_1"
+                        app:layout_constraintEnd_toStartOf="@+id/btn_customer"
+                        app:layout_constraintStart_toEndOf="@+id/btn_point_manage"
+                        app:layout_constraintTop_toBottomOf="@+id/my_toolbar"
+                        app:layout_constraintVertical_bias="0.0"-->
+
+
+                    <Button
+                        android:id="@+id/btn_favorite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_white_angled"
+                        android:fontFamily="@font/nanumgothicbold"
+                        android:onClick="onClick"
+                        android:text="즐겨찾기"
+                        android:textColor="@drawable/btn_text_yellow" />
+
+                    <Button
+                        android:id="@+id/btn_customer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_white_angled"
+                        android:fontFamily="@font/nanumgothicbold"
+                        android:onClick="onClick"
+                        android:text="고객센터"
+                        android:textColor="@drawable/btn_text_yellow" />
+                    <!--
+                        app:layout_constraintBottom_toTopOf="@+id/doingE_1"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/btn_favorite"
+                        app:layout_constraintTop_toBottomOf="@+id/my_toolbar"
+                        app:layout_constraintVertical_bias="0.0"-->
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#10000000"
+                        android:paddingTop="8dp">
+
+                        <android.support.v4.view.ViewPager
+                                android:id="@+id/vp_football"
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"
+                                android:layout_marginStart="6dp"
+                                android:layout_marginEnd="6dp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="#44000000" />
+
+                        <android.support.v4.view.ViewPager
+                            android:id="@+id/vp_baseball"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_marginStart="6dp"
+                            android:layout_marginEnd="6dp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#44000000" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="오늘의 경기"
+                        android:fontFamily="@font/nanumgothic"
+                        android:textColor="#FF000000"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginStart="14dp"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:id="@+id/txt_noGame"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/nanumgothicbold"
+                        android:text="오늘은 경기가 없습니다."
+                        android:textAlignment="center"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv_games"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                ads:adSize="SMART_BANNER"
+                ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+            </com.google.android.gms.ads.AdView>
+        </RelativeLayout>
+
+        <!--navigation drawer-->
+        <android.support.design.widget.NavigationView
+            android:id="@+id/navigationView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/main_nav_header"
+            app:menu="@menu/main_navigator" />
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>

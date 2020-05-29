@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".member_agree">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="?attr/actionBarTheme" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="회원가입"
+            android:textSize="25sp"
+            android:textColor="#FFFFFFFF"
+            android:fontFamily="@font/nanumgothicbold"
+            android:layout_gravity="center"/>
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView70"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:text="이용약관"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textColor="#FF000000" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.1 Android 소프트웨어 개발 키트(라이선스 계약에서는 'SDK'라고 하며 특히 Android 시스템 파일, 패키지 API 및 Google API 부가기능을 포함)는 라이선스 계약의 약관에 따라 귀하에게 라이선스를 부여합니다. 라이선스 계약은 SDK 사용과 관련하여 귀하와 Google 간에 체결하는 법적 구속력을 지니는 계약입니다.
+
+    1.2 'Android'는 Android 오픈소스 프로젝트(http://source.android.com/에서 확인할 수 있음)에 따라 사용할 수 있도록 만들어진, 기기를 대상으로 하는 Android 소프트웨어 스택을 의미하며 수시로 업데이트될 수 있습니다.
+
+    1.3 '호환 가능한 구현'은 (i) Android 호환성 웹사이트(http://source.android.com/compatibility)에서 확인할 수 있으며 수시로 업데이트될 수 있는 Android 호환성 정의 문서를 준수하며 (ii) Android 호환성 테스트 도구 모음(CTS)을 통과하는 Android 기기를 의미합니다.
+
+    1.4 'Google'은 미국 델라웨어주 법인이며 1600 Amphitheatre Parkway, Mountain View, CA 94043에 주 사업장을 둔 Google LLC를 의미합니다."
+                android:textSize="14sp" />
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:text="이용약관"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textColor="#FF000000" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.1 Android 소프트웨어 개발 키트(라이선스 계약에서는 'SDK'라고 하며 특히 Android 시스템 파일, 패키지 API 및 Google API 부가기능을 포함)는 라이선스 계약의 약관에 따라 귀하에게 라이선스를 부여합니다. 라이선스 계약은 SDK 사용과 관련하여 귀하와 Google 간에 체결하는 법적 구속력을 지니는 계약입니다.
+
+    1.2 'Android'는 Android 오픈소스 프로젝트(http://source.android.com/에서 확인할 수 있음)에 따라 사용할 수 있도록 만들어진, 기기를 대상으로 하는 Android 소프트웨어 스택을 의미하며 수시로 업데이트될 수 있습니다.
+
+    1.3 '호환 가능한 구현'은 (i) Android 호환성 웹사이트(http://source.android.com/compatibility)에서 확인할 수 있으며 수시로 업데이트될 수 있는 Android 호환성 정의 문서를 준수하며 (ii) Android 호환성 테스트 도구 모음(CTS)을 통과하는 Android 기기를 의미합니다.
+
+    1.4 'Google'은 미국 델라웨어주 법인이며 1600 Amphitheatre Parkway, Mountain View, CA 94043에 주 사업장을 둔 Google LLC를 의미합니다." />
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/checkbox_agree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:onClick="onClick"
+            android:text="위의 약관에 동의합니다"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn_bucket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:onClick="onClick"
+            android:text="@string/확인"
+            android:fontFamily="@font/nanumgothic"
+            android:textColor="#FFFFFFFF"
+            android:background="@drawable/btn_gray"
+            android:layout_gravity="bottom"
+            android:enabled="false" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".member_usual_request">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:verticalScrollbarPosition="defaultPosition"
+        android:visibility="visible">
+        <!-- main layout-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/my_toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/colorPrimary"
+                    android:elevation="4dp"
+                    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="자주 묻는 질문"
+                        android:fontFamily="@font/nanumgothicextrabold"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFFFF"
+                        android:layout_gravity="center"/>
+                </android.support.v7.widget.Toolbar>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView75"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/nanumgothicbold"
+                        android:text="주문관련"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:id="@+id/txt_order1"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@color/common_google_signin_btn_text_light_disabled"
+                        android:onClick="onClick"
+                        android:text="Q 주문을 하려는데 결제 오류가 떠요" />
+
+                    <TextView
+                        android:id="@+id/txt_order2"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@color/common_google_signin_btn_text_light_disabled"
+                        android:onClick="onClick"
+                        android:text="Q. 한번의 한 가게에서만 주문이 되나요?" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView77"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/nanumgothicbold"
+                        android:text="배달관련"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:id="@+id/txt_del1"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@color/common_google_signin_btn_text_light_disabled"
+                        android:onClick="onClick"
+                        android:text="Q. 언제 배달되는지 알고싶어요." />
+
+                    <TextView
+                        android:id="@+id/txt_del2"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@color/common_google_signin_btn_text_light_disabled"
+                        android:onClick="onClick"
+                        android:text="Q. 배달이 오지 않는것 같습니다." />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView78"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/nanumgothicbold"
+                        android:text="포인트관련"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:id="@+id/txt_point1"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@color/common_google_signin_btn_text_light_disabled"
+                        android:onClick="onClick"
+                        android:text="Q. 포인트 충전은 어떻게 하나요?" />
+
+                    <TextView
+                        android:id="@+id/txt_point2"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@color/common_google_signin_btn_text_light_disabled"
+                        android:onClick="onClick"
+                        android:text="Q. 포인트는 어떻게 사용하나요?" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView79"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="12dp"
+                        android:text="기타"
+                        android:fontFamily="@font/nanumgothicbold"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="50dp"
+                    android:gravity="bottom">
+
+                    <Button
+                        android:id="@+id/button_back"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_white"
+                        android:fontFamily="@font/nanumgothicbold"
+                        android:onClick="onClick"
+                        android:text="돌아가기"
+                        android:textColor="@drawable/btn_text_yellow" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <!--navigation drawer-->
+        <android.support.design.widget.NavigationView
+            android:id="@+id/navigationView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/main_nav_header"
+            app:menu="@menu/main_navigator" />
+
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>

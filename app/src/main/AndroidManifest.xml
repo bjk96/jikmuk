@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.kangt.jm">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="직먹"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity android:name=".eventfootball"></activity>
+        <activity android:name=".eventbaseball1" />
+        <activity android:name=".food_store_manage"></activity>
+        <activity android:name=".food_menu" />
+        <activity android:name=".food_cashout_receipt" />
+        <activity android:name=".food_cashout" />
+        <activity android:name=".food_order_receipt" />
+        <activity android:name=".member_main" />
+        <activity android:name=".member_agree" />
+        <activity android:name=".member_bucket" />
+        <activity android:name=".member_regist_complete" />
+        <activity android:name=".delibary_main" />
+        <activity android:name=".delibary_cashout" />
+        <activity android:name=".delibary_cashout_receipt" />
+        <activity android:name=".delibary_receipt" />
+        <activity android:name=".delibary_start" />
+        <activity android:name=".food_menu_manage_add"></activity>
+        <activity android:name=".food_menu_manage" />
+        <activity android:name=".member_favorite" />
+        <activity android:name=".member_favorite_detail" />
+        <activity android:name=".member_login" />
+        <activity android:name=".food_manage" />
+        <activity android:name=".food_open" />
+        <activity android:name=".food_regist" />
+        <activity android:name=".food_start" />
+        <activity android:name=".member_request_onevsone" />
+        <activity android:name=".member_point" />
+        <activity android:name=".member_point_present" />
+        <activity android:name=".member_regist" />
+        <activity android:name=".member_reorder" />
+        <activity android:name=".member_usual_request" />
+        <activity android:name=".member_order_menu" />
+        <activity android:name=".member_order" />
+        <activity android:name=".member_order_menu_select" />
+        <activity android:name=".member_order_pay" />
+        <activity android:name=".member_order_receipt" />
+        <activity android:name=".member_charge" />
+        <activity android:name=".favorite_recycler_view" />
+        <activity android:name=".start_progress">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- TODO: Replace with your real AdMob app ID -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1617364987789728~2424681382"/>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+</manifest>

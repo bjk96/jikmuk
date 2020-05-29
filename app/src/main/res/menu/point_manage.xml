@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id = "@+id/point_charge"
+        android:title="포인트 충전"/>
+
+    <item android:id = "@+id/point_receipt"
+        android:title="포인트 내역"/>
+
+    <item android:id = "@+id/point_present"
+        android:title="포인트 선물"/>
+</menu>
